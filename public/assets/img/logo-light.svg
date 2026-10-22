@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" role="img" aria-label="Cartalyst Global">
+  <title>Cartalyst Global</title>
+  <g transform="translate(8,16)">
+    <circle cx="64" cy="64" r="62" fill="#0A1628"/>
+    <circle cx="64" cy="64" r="48" fill="none" stroke="#3DDC97" stroke-width="4"/>
+    <path d="M64 22v84M22 64h84M34 40c18 10 38 10 60 0M34 88c18-10 38-10 60 0" fill="none" stroke="#D4A017" stroke-width="3"/>
+    <circle cx="64" cy="64" r="7" fill="#3DDC97"/>
+  </g>
+  <text x="160" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#F6F3EC">CARTALYST</text>
+  <text x="160" y="118" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="8" fill="#3DDC97">GLOBAL</text>
+</svg>

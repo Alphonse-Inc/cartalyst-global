@@ -1,0 +1,14 @@
+# Uploads live outside the web root when possible.
+# If this directory is ever web-accessible, block all execution and listing.
+Options -Indexes
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Deny from all
+</IfModule>
+<FilesMatch "\.(php|phtml|phar|cgi|pl|py|jsp|asp|aspx|sh)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>

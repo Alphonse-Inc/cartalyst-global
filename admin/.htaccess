@@ -1,0 +1,2 @@
+# Admin UI is served through public/index.php at /admin
+DirectoryIndex index.php

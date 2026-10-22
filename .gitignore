@@ -1,0 +1,12 @@
+/config/config.php
+/config/.env
+/config/installed.lock
+/uploads/*
+!/uploads/.htaccess
+!/uploads/.gitkeep
+/logs/*
+!/logs/.htaccess
+!/logs/.gitkeep
+.DS_Store
+Thumbs.db
+*.log

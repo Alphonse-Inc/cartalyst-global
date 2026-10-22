@@ -1,0 +1,7 @@
+# If the whole project is uploaded into public_html (document root cannot be changed),
+# send all requests into /public.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^public/ - [L]
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
